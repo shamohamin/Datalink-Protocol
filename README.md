@@ -1,5 +1,5 @@
 # DATA-LINK-PROTOCOL
-This Project Is a Simple Implementation Of [HDLC](https://en.wikipedia.org/wiki/High-Level_Data_Link_Control) [And Go-Back-ARQ Protocol](https://en.wikipedia.org/wiki/Go-Back-N_ARQ), Which Is Written In Golang Using [TCP](https://golang.org/pkg/net) Socket.
+This Project Is a Simple Implementation Of [HDLC] And (https://en.wikipedia.org/wiki/High-Level_Data_Link_Control) [Go-Back-ARQ Protocol](https://en.wikipedia.org/wiki/Go-Back-N_ARQ), Which Is Written In Golang Using [TCP](https://golang.org/pkg/net) Socket.
 
 ## Frame Structure
 * structure:
@@ -24,6 +24,11 @@ This Project Is a Simple Implementation Of [HDLC](https://en.wikipedia.org/wiki/
     (running client)
     cd client
         go run client.go pass frame length
+    
+    (running with python)
+    python3 -m venv env
+        source env/bin/activate 
+            (env) python runner.py
 ```
 
 ## Screenshots
