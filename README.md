@@ -7,14 +7,14 @@ This Project Is a Simple Implementation Of [HDLC] And (https://en.wikipedia.org/
     - StartFlag: for distinguishing the start of frame (1 byte)
     - EndFlag: for distinguishing the end of frame (1 byte)
     - Control: for holding the sequence number and address (2 byte)
-
+    ![Frame Structure](./screen_shots/frame_structure.png "Frame Structure")
 ## Frame Types
 * types:
     - FrameData: for sending information frame
     - FrameSupervised: for sending acknowledge frames
     - FrameReject: for sending rejected acknowledge frames
     - FrameDisconnect: for disconnecting the connection
-
+    ![Frame Types](./screen_shots/frame_types.png "Frame Types")
 ## Start
 ```bash 
     (running server)
